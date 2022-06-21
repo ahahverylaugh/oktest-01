@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: owo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ovo
+      app: owo
   template:
     metadata:
       labels:
-        app: ovo
+        app: owo
     spec:
       containers:
-      - image: okteto.dev/ovo:latest
-        name: ray
+      - image: okteto.dev/owo:latest
+        name: owo
         ports:
         - containerPort: 8080
         env:
