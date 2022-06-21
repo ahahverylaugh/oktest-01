@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - image: okteto.dev/ovo:latest
-        name: ray2
+        name: ray
         ports:
         - containerPort: 8080
         env:
